@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palace Resorts®</title>
+    <link rel="stylesheet" href="./css/promo.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="shortcut icon" href="./assets/iconos/favicon_1.ico" type="image/vnd.microsoft.icon">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="./js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" async="" src="./js/main.js"></script>
+
+</head>
+
+<body>
+
+    <section class="landing-buckup">
+        <header>
+            <div class="brand">
+                <picture>
+                    <source media="(max-width: 1200px)" srcset="./assets/logo_mobile.png">
+                    <img data-src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2020-10/logo-palace-cybermonday-us-ca.png"
+                        alt="Logo" title="" class=" lazyloaded" src="./assets/Logo_Palace.png">
+                </picture>
+            </div>
+            <div class="navbar_menu_mobile_btn" onclick="open_menu_mobile()"></div>
+            <nav>
+                <ul>
+                    <li class="chat">
+                        <picture>
+                            <img src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-11/white-glob.png"
+                                alt="Icon chat" title="" class=" lazyloaded" src="./assets/iconos/object1.png">
+                        </picture>
+                        <p class="color"><a class="color" rel="noopener">LIVE CHAT</a>
+                        </p>
+                    </li>
+                    <li class="phone">
+                        <p class="color">CALL NOW AND BOOK </p>
+                        <picture>
+                            <img src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-11/white-phone.png"
+                                alt="Icon phone" title="" class=" lazyloaded" src="./assets/iconos/object1.png">
+                        </picture>
+                        <div class="selector" onclick="open_content_select()">
+                            <p class="first"></p>
+                            <div class="container"></div>
+                        </div>
+                        <div class="content_enlace">
+                            <a class="color" href="" target="_blank" rel="noopener"></a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div id="navbar" class="navbar-collapsed">
+                <div class="contenedor">
+                    <div>
+                        <div class="chat">
+                            <picture>
+                                <img src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-11/white-glob.png"
+                                    alt="Icon chat" title="" class=" lazyloaded" src="./assets/iconos/object1.png">
+                            </picture>
+                            <p class="color"><a class="color" rel="noopener">LIVE CHAT</a>
+                            </p>
+                        </div>
+                        <div class="phone">
+                            <p class="color">CALL NOW AND BOOK </p>
+                            <div class="contenedorPhone">
+                                <picture>
+                                    <img src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-11/white-phone.png"
+                                        alt="Icon phone" title="" class=" lazyloaded" src="./assets/iconos/object1.png">
+                                </picture>
+                                <div class="selector" onclick="open_content_select()">
+                                    <p class="first"></p>
+                                    <div class="container"></div>
+                                </div>
+                                <div class="content_enlace">
+                                    <a class="color" href="" target="_blank" rel="noopener"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="banner">
+            <picture>
+                <source  media="(max-width: 768px)">
+                <img alt="Banner" title="Banner" class=" lazyloaded">
+            </picture>
+        </section>
+
+        <section class="promo_resorts">
+
+            <div class="Introduction">
+                <div class="title">
+                </div>
+                <div class="items">
+                    <ul></ul>
+                </div>
+            </div>
+
+            <article>
+                <div class="img">
+                    <a rel="noopener">
+                        <img class="logo" src="./assets/logos/mpc_logo.jpg" alt="Moon Palace Cancún Logo">
+                        <picture>
+                            <img src="./assets/Fondos/MPC_Fondo.jpg" alt="Moon palace cancún" title="Moon palace cancún"
+                                class=" lazyloaded">
+                        </picture>
+                    </a>
+                </div>
+                <div class="box_btns">
+                    <button class="btn book"><a href="https://bookingscancunpr.moonpalace.com/rooms" target="_blank"
+                            rel="noopener">BOOK NOW</a>
+                    </button>
+                    <button class="btn H_V"><a
+                            href="https://www.reservhotel.com/cancun-mexico/moon-palace-cancun-be/booking-engine/ibe5.main?hotel=10443"
+                            target="_blank" rel="noopener">HOTEL + FLIGHT</a>
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div class="img">
+                    <a rel="noopener">
+                        <img class="logo" src="./assets/logos/mpj_logo.jpg" alt="Moon Palace Jamaica Logo">
+                        <picture>
+                            <img src="./assets/Fondos/MPJ_Fondo.jpg" alt="Moon Palace Jamaica"
+                                title="Moon Palace Jamaica" class=" lazyloaded">
+                        </picture>
+                    </a>
+                </div>
+
+                <div class="box_btns">
+                    <button class="btn book"><a href="https://bookingsjamaicapr.moonpalace.com/rooms" target="_blank"
+                            rel="noopener">BOOK NOW</a>
+                    </button>
+                    <button class="btn H_V"><a
+                            href="https://www.reservhotel.com/ocho-rios-jamaica/moon-palace-jamaica-be/booking-engine/ibe5.main?lang=2&hotel=10448&currency=MXN&aDate=&dDate=&showcalendar=Y&rate=I5"
+                            target="_blank" rel="noopener">HOTEL + FLIGHT</a>
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div class="img">
+                    <a rel="noopener">
+                        <img class="logo" src="./assets/logos/tgmp_logo.jpg" alt="THE GRAND AT MOON PALACE CANCUN LOGO">
+                        <picture>
+                            <img src="./assets/Fondos/TGMP_Fondo.jpg" alt="THE GRAND AT MOON PALACE CANCUN"
+                                title="THE GRAND AT MOON PALACE CANCUN" class=" lazyloaded">
+                        </picture>
+                    </a>
+                </div>
+
+                <div class="box_btns">
+                    <button class="btn book"><a href="https://bookingsthegrandpr.moonpalace.com/rooms" target="_blank"
+                            rel="noopener">BOOK NOW</a>
+                    </button>
+                    <button class="btn H_V"><a
+                            href="https://www.reservhotel.com/cancun-mexico/the-grand-at-moon-palace-cancun/booking-engine/ibe5.main?hotel=10451"
+                            target="_blank" rel="noopener">HOTEL + FLIGHT</a>
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div class="img">
+                    <a rel="noopener">
+                        <img class="logo" src="./assets/logos/lbc_logo.jpg" alt="Le Blanc Spa Resort logo">
+                        <picture>
+                            <img src="./assets/Fondos/LBC_Fondo.jpg" alt="Le Blanc Spa Resort"
+                                title="Le Blanc Spa Resort" class=" lazyloaded">
+                        </picture>
+                    </a>
+                </div>
+
+                <div class="box_btns">
+                    <button class="btn book"><a href="https://bookingscancunpr.leblancsparesorts.com/rooms"
+                            target="_blank" rel="noopener">BOOK NOW</a>
+                    </button>
+                    <button class="btn H_V"><a
+                            href="https://www.reservhotel.com/cancun-mexico/le-blanc-spa-resort-be/booking-engine/ibe5.main?hotel=10447&lang=2"
+                            target="_blank" rel="noopener">HOTEL + FLIGHT</a>
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div class="img">
+                    <a rel="noopener">
+                        <img class="logo" src="./assets/logos/lblc_logo.jpg" alt="Le Blanc Spa Resort LOS CABOS logo">
+                        <picture>
+                            <img src="./assets/Fondos/LBLC_Fondo.jpg" alt="Le Blanc Spa Resort LOS CABOS"
+                                title="Le Blanc Spa Resort LOS CABOS" class=" lazyloaded">
+                        </picture>
+                    </a>
+                </div>
+
+                <div class="box_btns">
+                    <button class="btn book"><a href="https://bookingscabopr.leblancsparesorts.com/rooms"
+                            target="_blank" rel="noopener">BOOK NOW</a>
+                    </button>
+                    <button class="btn H_V"><a
+                            href="https://www.reservhotel.com/los-cabos-mexico/le-blanc-spa-resort-be/booking-engine/ibe5.main?hotel=10457&lang=2"
+                            target="_blank" rel="noopener">HOTEL + FLIGHT</a>
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div class="img">
+                    <a rel="noopener">
+                        <img class="logo" src="./assets/logos/bp_logo.jpg" alt="Beach Palace logo">
+                        <picture>
+                            <img src="./assets/Fondos/BP_Fondo.jpg" alt="Beach Palace" title="Beach Palace"
+                                class=" lazyloaded">
+                        </picture>
+                    </a>
+                </div>
+
+                <div class="box_btns">
+                    <button class="btn book"><a
+                            href="https://bookingsbeachpr.palaceresorts.com/rooms?_gl=1*jzy1ne*_ga*MjY4OTcwODAxLjE2MTAxMTYwOTU.*_ga_60DXLX9WQC*MTYxNzg5NzU3MC42Ni4xLjE2MTc4OTc1ODQuNDY."
+                            target="_blank" rel="noopener">BOOK NOW</a>
+                    </button>
+                    <button class="btn H_V"><a
+                            href="https://www.reservhotel.com/cancun-mexico/beach-palace-be/booking-engine/ibe5.main?hotel=10444"
+                            target="_blank" rel="noopener">HOTEL + FLIGHT</a>
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div class="img">
+                    <a rel="noopener">
+                        <img class="logo" src="./assets/logos/pc_logo.jpg" alt="Playacar Palace logo">
+                        <picture>
+                            <img src="./assets/Fondos/PC_Fondo.jpg" alt="Playacar Palace" title="Playacar Palace"
+                                class=" lazyloaded">
+                        </picture>
+                    </a>
+                </div>
+
+                <div class="box_btns">
+                    <button class="btn book"><a href="https://bookingsplayadelcarmenpr.palaceresorts.com/rooms"
+                            target="_blank" rel="noopener">BOOK NOW</a>
+                    </button>
+                    <button class="btn H_V"><a
+                            href="https://www.reservhotel.com/playa-del-carmen-mexico/playacar-palace/booking-engine/ibe5.main?hotel=10449"
+                            target="_blank" rel="noopener">HOTEL + FLIGHT</a>
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div class="img">
+                    <a rel="noopener">
+                        <img class="logo" src="./assets/logos/im_logo.jpg" alt="Isla Mujeres Palace logo">
+                        <picture>
+                            <img src="./assets/Fondos/IM_Fondo.jpg" alt="Isla Mujeres Palace"
+                                title="Isla Mujeres Palace" class=" lazyloaded">
+                        </picture>
+                    </a>
+                </div>
+
+                <div class="box_btns">
+                    <button class="btn book"><a
+                            href="https://bookingsislamujerespr.palaceresorts.com/rooms?_ga=2.254954443.21876270.1617633155-268970801.1610116095"
+                            target="_blank" rel="noopener">BOOK NOW</a>
+                    </button>
+                    <button class="btn H_V"><a
+                            href="https://www.reservhotel.com/isla-mujeres-mexico/isla-mujeres-palace-be/booking-engine/ibe5.main?hotel=10446"
+                            target="_blank" rel="noopener">HOTEL + FLIGHT</a>
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div class="img">
+                    <a rel="noopener">
+                        <img class="logo" src="./assets/logos/cz_logo.jpg" alt="Cozumel Palace logo">
+                        <picture>
+                            <img src="./assets/Fondos/CZ_Fondo.jpg" alt="Cozumel Palace" title="Cozumel Palace"
+                                class=" lazyloaded">
+                        </picture>
+                    </a>
+                </div>
+
+                <div class="box_btns">
+                    <button class="btn book"><a href="https://bookingscozumelpr.palaceresorts.com/rooms" target="_blank"
+                            rel="noopener">BOOK NOW</a>
+                    </button>
+                    <button class="btn H_V"><a
+                            href="https://www.reservhotel.com/cozumel-mexico/cozumel-palace-be/booking-engine/ibe5.main?hotel=10445"
+                            target="_blank" rel="noopener">HOTEL + FLIGHT</a>
+                    </button>
+                </div>
+            </article>
+            <article>
+                <div class="img">
+                    <a rel="noopener">
+                        <img class="logo" src="./assets/logos/sp_logo.jpg" alt="Sun Palace logo">
+                        <picture>
+                            <img src="./assets/Fondos/SP_Fondo.jpg" alt="Sun Palace" title="Sun Palace"
+                                class=" lazyloaded">
+                        </picture>
+                    </a>
+                </div>
+
+                <div class="box_btns">
+                    <button class="btn book"><a href="https://bookingssunpr.palaceresorts.com/rooms" target="_blank"
+                            rel="noopener">BOOK NOW</a>
+                    </button>
+                    <button class="btn H_V"><a
+                            href="https://www.reservhotel.com/cancun-mexico/sun-palace/booking-engine/ibe5.main?hotel=10450"
+                            target="_blank" rel="noopener">HOTEL + FLIGHT</a>
+                    </button>
+                </div>
+            </article>
+        </section>
+        <section class="purley">
+            <h2>INCREDIBLE BENEFITS</h2>
+            <div class="contenedor">
+                <div class="benefits">
+                    <div class="int_box_icons">
+                        <div class="four_box">
+                            <div class="item">
+                                <div class="box_item">
+                                    <picture><img class=" lazyloaded"
+                                            data-src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-09/items3es_03_01_8.png"
+                                            src="./assets/iconos/object1.png">
+                                    </picture>
+                                    <p>Bottle of Wine on Arrival</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="box_item">
+                                    <picture><img class=" lazyloaded"
+                                            data-src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-09/items3es_02_0_3.png"
+                                            src="./assets/iconos/object2.png">
+                                    </picture>
+                                    <p>Luxurious Accommodations</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="box_item">
+                                    <picture><img class=" lazyloaded"
+                                            data-src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-09/items3es_02_1_2.png"
+                                            src="./assets/iconos/object3.png">
+                                    </picture>
+                                    <p>World Class Dining</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="box_item">
+                                    <picture><img class=" lazyloaded"
+                                            data-src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-09/items3es_02_2_2.png"
+                                            src="./assets/iconos/object4.png">
+                                    </picture>
+                                    <p>Top Shelf Drinks</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="four_box">
+                            <div class="item">
+                                <div class="box_item">
+                                    <picture><img class=" lazyloaded"
+                                            data-src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-09/items4es_02_3.png"
+                                            src="./assets/iconos/object5.png">
+                                    </picture>
+                                    <p>Delicious Aappetizers</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="box_item">
+                                    <picture><img class=" lazyloaded"
+                                            data-src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-09/items4es_02_0_2.png"
+                                            src="./assets/iconos/object6.png">
+                                    </picture>
+                                    <p>24 Hour Room Service </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="box_item">
+                                    <picture><img class=" lazyloaded"
+                                            data-src="https://d1ejmqnfsghaj0.cloudfront.net/s3fs-public/2019-09/items4es_02_1_3.png"
+                                            src="./assets/iconos/object7.png">
+                                    </picture>
+                                    <p>Free Wi-Fi</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="purley_icons">
+                    <div class="text">
+                        <h1>ENJOY A VACATION</h1>
+                        <P>AS SAFE AS IT IS AMAZING</P>
+                    </div>
+                    <picture>
+                        <img src="./assets/Purelymore.png" alt="purely">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <!--  <section class="landings_tyc">
+        <div class="title" onclick="open_tabtyc()">
+            <p>Terms &amp; Conditions</p>
+        </div>
+        <div class="box_terms" style="display: none;">
+            <p style="text-align: center;">Promotion applicable to both hotel-only and package bookings. Applies to
+                all properties. Minimum three (3) night stay required for Concierge Level. Applicable to new
+                reservations only. Reservations with overlapping dates qualify – only dates within promotion can be
+                considered for discount. Promotion is subject to change without prior notice. We reserve the right
+                to discontinue this promotion at any time. Minimum night stay must be met in order to receive
+                promotional rates for Moon Palace Cancun, Moon Palace Jamaica, The Grand at Moon Palace, Le Blanc
+                Spa Resort Cancun and Le Blanc Spa Resort Los Cabos. Not applicable to travel agent rate, tour
+                operator, FAM trips, site inspections, complimentary, compensatory stays or any other rate-reduced
+                promotions in the market. Not redeemable for cash. This promotion is not transferrable to guests in
+                other rooms. Reservations of less than three (3) nights will not qualify for Resort Credit
+                promotion. Other terms and conditions may apply. Promotion not applicable for meetings, incentives,
+                conventions or exhibitions.</p>
+
+            <p class="hola" style="text-align: center;">*<strong>Complimentary sea transportation to Isla Mujeres
+                    subject to specified schedules, days and weather conditions. Please refer to website for further
+                    details. Free Airport Transfer not applicable for Cozumel Palace or Isla Mujeres Palace. Minimum
+                    (5) night stay required for Free Airport Transfer. Free airport transfers to and from Cancun
+                    International Airport (Cancun), Montego Bay and Kingston International Airports (Jamaica) &amp;
+                    Los Cabos International Airport (Los Cabos) only. Further terms and conditions may
+                    apply.</strong></p>
+            <style type="text/css">
+                section.landing-buckup section.promo_resorts .info .number span {
+                    background-color: #00354a !important;
+                }
+
+                section.landing-buckup nav .color {
+                    color: #ffffff !important;
+                }
+            </style>
+
+        </div>
+    </section> -->
+
+        <footer>
+            <div class="content">
+                <div class="img_footer_brands">
+
+                    <img data-src="./assets/Logo_Palace.png" alt="Palace Resorts" title="Palace Resorts"
+                        class=" lazyloaded" src="./assets/Logo_Palace.png">
+                </div>
+                <div class="links">
+                    <ul>
+                        <li>CANCUN, MEXICO</li>
+                        <li><a href="https://www.moonpalacecancun.com/" target="_blank" rel="noopener">Moon Palace
+                                Cancun</a></li>
+                        <li><a href="https://thegrand.moonpalace.com/" target="_blank" rel="noopener">The Grand At Moon
+                                Palace Cancun</a></li>
+                        <li><a href="https://beach.palaceresorts.com/" target="_blank" rel="noopener">Beach Palace</a>
+                        </li>
+                        <li><a href="https://sun.palaceresorts.com/" target="_blank" rel="noopener">Sun Palace</a></li>
+                        <li><a href="https://www.leblancsparesorts.com/cancun" target="_blank" rel="noopener">Le Blanc
+                                Spa Resort Cancun</a></li>
+                    </ul>
+
+                </div>
+                <div class="links">
+                    <ul>
+                        <li>ISLA MUJERES, MEXICO</li>
+                        <li><a href="https://islamujeres.palaceresorts.com/" target="_blank" rel="noopener">Isla Mujeres
+                                Palace</a></li>
+                    </ul>
+
+                    <ul>
+                        <li>OCHO RIOS, JAMAICA</li>
+                        <li><a href="https://jamaica.moonpalace.com/" target="_blank" rel="noopener">Moon Palace
+                                Jamaica</a></li>
+                    </ul>
+
+                    <ul>
+                        <li>LOS CABOS, MEXICO</li>
+                        <li><a href="https://www.leblancsparesorts.com/los-cabos" target="_blank" rel="noopener">Le
+                                Blanc Spa Resort Los Cabos</a></li>
+                    </ul>
+
+                </div>
+                <div class="links">
+                    <ul>
+                        <li>COZUMEL, MEXICO</li>
+                        <li><a href="http://cozumel.palaceresorts.com/" target="_blank" rel="noopener">Cozumel
+                                Palace</a></li>
+                    </ul>
+
+                    <ul>
+                        <li>PLAYA DEL CARMEN, MEXICO</li>
+                        <li><a href="https://playacar.palaceresorts.com/" target="_blank" rel="noopener">Playacar
+                                Palace</a></li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </footer>
+    </section>
+</body>
+
+</html>

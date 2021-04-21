@@ -1,0 +1,68 @@
+footer {
+    position: relative;
+    display: block;
+}
+section.landing-buckup footer {
+    background-color: #141414;
+}
+
+section.landing-buckup footer .content {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+section.landing-buckup footer .content .img_footer_brands {
+    width: 22%;
+    height: 100px;
+    display: flex;
+    vertical-align: top;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+section.landing-buckup footer .content .img_footer_brands img{
+    width: 40%;
+}
+section.landing-buckup footer .content .links {
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+}
+section.landing-buckup footer .content ul {
+    padding: 0;
+    margin-bottom: 10px;
+}
+section.landing-buckup footer .content ul li {
+    color: #737373;
+    font-family: 'Gotham-Bold';
+    font-size: 13px;
+    line-height: normal;
+}
+section.landing-buckup footer .content ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Gotham-light';
+}
+section.landing-buckup footer .content ul li a:hover {
+    color: #c7c7c7;
+}
+@media (max-width: 1200px){
+    section.landing-buckup footer .content {    
+        padding: 20px;
+    }
+    section.landing-buckup footer .content .img_footer_brands {
+        width: 100%;        
+    }
+    section.landing-buckup footer .content .img_footer_brands img {
+        object-fit: contain;
+        width: auto;
+    }
+    section.landing-buckup footer .content .links {
+        display: none;
+    }
+}

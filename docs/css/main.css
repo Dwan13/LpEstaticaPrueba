@@ -1,0 +1,433 @@
+@font-face {
+	font-family: 'Gotham-Light';
+	src: url('../assets/fonts/Gotham-Light.eot');
+	src: url('../assets/fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Gotham-Light.woff') format('woff'),
+		url('../assets/fonts/Gotham-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham-Book';
+	src: url('../assets/fonts/Gotham-Book.eot');
+	src: url('../assets/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Gotham-Book.woff') format('woff'),
+		url('../assets/fonts/Gotham-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham-Black';
+	src: url('../assets/fonts/Gotham-Black.eot');
+	src: url('../assets/fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Gotham-Black.woff') format('woff'),
+		url('../assets/fonts/Gotham-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham-Bold';
+	src: url('../assets/fonts/Gotham-Bold.eot');
+	src: url('../assets/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Gotham-Bold.woff') format('woff'),
+		url('../assets/fonts/Gotham-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham-ExtraLight';
+	src: url('../assets/fonts/Gotham-ExtraLight.eot');
+	src: url('../assets/fonts/Gotham-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Gotham-ExtraLight.woff') format('woff'),
+		url('../assets/fonts/Gotham-ExtraLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'Miso-Regular';
+  src: url('../assets/fonts/miso-regular-webfont.eot');
+  src: url('../assets/fonts/miso-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/miso-regular-webfont.woff') format('woff'),
+       url('../assets/fonts/miso-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+	font-family: 'Miso';
+	src: url('../assets/fonts/Miso.eot');
+	src: url('../assets/fonts/Miso.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Miso.woff') format('woff'),
+		url('../assets/fonts/Miso.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-family:'Gotham-Book';
+    background-color: #f2f2f2;
+}
+header {
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: transparent;
+    transition: all 0.3s ease-in;
+
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+figure, picture {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+p {
+    color: #626262;
+    font-size: 16px;
+    line-height: 20px;
+}
+p {
+    margin: 0 0 10px;
+}
+.text_CTA_Profiler, h4 {
+    color: #4296c3;
+    font-size: 1.875rem;
+    line-height: 26px;
+    font-family: Miso-Light;
+    letter-spacing: -.5px;
+    margin: 0;
+}
+ul {
+    color: #626262;
+    list-style: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+ul li {
+    font-size: 16px;
+    line-height: 1.25rem;
+    padding-right: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.btn{
+    border: 1px solid #4296c3;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    color: #4296c3;
+    padding: 8px 30px;
+    font-family: Gotham-Light;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+section.landing-buckup {
+    font-size: 0;
+}
+section.landing-buckup .banner::before{
+    background: linear-gradient(to top,transparent 0,rgba(0,0,0,.1) 25%,rgba(0,0,0,.3) 50%,rgba(0,0,0,.8) 100%);
+    top: 0;
+    content: "";
+    display: block;
+    height: 120px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    pointer-events: none;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+section.landing-buckup header .navbar-collapsed{
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #161616;
+    padding-bottom: 30px;
+    top: 0;
+    overflow-y: scroll;
+    height: 100vh;
+    z-index: 10;
+}
+section.landing-buckup header .navbar-collapsed .contenedor{ 
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+section.landing-buckup header .navbar-collapsed .contenedor .phone p{
+    color: white;
+    margin: 20px;
+}
+section.landing-buckup header .navbar-collapsed .contenedor .chat .color a,
+section.landing-buckup header .navbar-collapsed .contenedor .contenedorPhone a{
+    font-size: 16px;
+    margin-left: 5px;
+}
+section.landing-buckup header .navbar-collapsed .contenedor .contenedorPhone,
+section.landing-buckup header .navbar-collapsed .contenedor .chat{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.landing-buckup header .navbar-collapsed .contenedor .contenedorPhone .selector{
+    width: 100px;
+    text-align: center;
+}
+section.landing-buckup header .navbar-collapsed .contenedor .contenedorPhone .selector .container{
+    position: absolute;
+    display: none;
+    text-align: center;
+    border: 1px white solid;
+    margin-right: 13px;
+}
+section.landing-buckup header .navbar-collapsed .contenedor .contenedorPhone .container p{
+    border-bottom: 1px white solid;
+}
+section.landing-buckup header .navbar-collapsed .contenedor .contenedorPhone .container p:hover{
+    background-color: white;
+    color: black;    
+}
+section.landing-buckup header .navbar-collapsed .contenedor .contenedorPhone .content_enlace{
+    width: 160px;
+}
+section.landing-buckup header .navbar_menu_mobile_btn{
+    display: none;
+}
+section.landing-buckup header nav ul li p {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    margin: 0;
+}
+section.landing-buckup header nav ul li p:after {
+    content: "|";
+    display: inline-block;
+    width: 10px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 10px;
+}
+section.landing-buckup header nav ul li p:first-child::after {
+    display: none;
+}
+section.landing-buckup header nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0;
+    font-family: 'Miso';
+}
+section.landing-buckup header nav {
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+}
+section.landing-buckup header nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+
+section.landing-buckup header {
+    width: 72%;
+    position: absolute;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section.landing-buckup header .brand {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+section.landing-buckup header .brand picture img{
+    width: 35%;
+}
+section.landing-buckup header .navbar-collapsed .contenedor .chat,
+section.landing-buckup header nav .chat{
+    display: none;
+}
+section.landing-buckup header nav .chat picture img{
+    width: 16px;
+}
+section.landing-buckup header nav .phone picture img{
+    width: 14px;
+ }
+ section.landing-buckup header nav .chat picture,
+ section.landing-buckup header nav .phone picture{
+    display: inline-block;
+    max-width: 28px;
+    vertical-align: middle;
+    object-position: center;
+ }
+ section.landing-buckup header nav .phone .content_enlace{
+     display: inherit;
+     width: 120px;
+     text-align: left;
+}
+ section.landing-buckup header nav .phone .selector{
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    color: white;
+    border: none;
+    width: 40px;
+    font-family: 'Miso' !important;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+
+ }
+ section.landing-buckup header nav .phone .selector::after{
+    content: "\025be";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    color: white;
+    background-color: transparent;
+    pointer-events: none;
+    transform-origin:center;
+    transition: all 0.5s ease-in-out;
+    transform: rotate(0deg);
+ }
+ section.landing-buckup header nav .phone .selector.activo::after{
+    content: "\025be";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    color: white;
+    background-color: transparent;
+    pointer-events: none;
+    transform: rotate(540deg);
+ }
+ 
+ section.landing-buckup header nav .phone .selector .container{
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    border: 1px white solid;
+    margin-right: 13px;
+    display: none;
+ }
+ section.landing-buckup header nav .phone .selector .container p{
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    width: 40px;
+    border-bottom: 1px white solid;
+ }
+ section.landing-buckup header nav .phone .selector .container p:last-child{
+     border: none;
+ }
+ section.landing-buckup header nav .phone .selector .container p::after{
+     display: none;
+ }
+ section.landing-buckup header nav .phone .selector .container p:hover{
+    background-color: white;
+    color: black;    
+}
+ 
+ section.landing-buckup header nav .phone .color{
+    margin-right: 10px;
+ }
+
+
+
+
+section.landing-buckup section.banner img {
+    width: 100%;
+}
+
+
+section.landing-buckup section.landings_tyc .box_terms {
+    padding: 20px;
+    display: none;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+section.landing-buckup section.landings_tyc .box_terms p {
+    color: #fff;
+}
+section.landing-buckup section.landings_tyc .box_terms p {
+    color: #fff;
+}
+
+@media (max-width: 1200px){
+    
+body{    
+    background-color: white;
+}
+header.transform {
+    background-color: #000;
+}
+section.landing-buckup header .navbar_menu_mobile_btn{
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    background-image: url(../assets/sprite.png);
+    background-size: 191px;
+    background-position: -94px -63px;
+    z-index: 99;
+    cursor: pointer;
+}
+section.landing-buckup header .navbar_menu_mobile_btn.activo {
+    background-image: url(../assets/icon-menu-close.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 30px;
+    background-position: center;
+}
+section.landing-buckup header nav ul{
+    display: none;
+}
+section.landing-buckup header .brand picture img {
+    width: 40px;
+}
+section.landing-buckup header {
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+}
+}
