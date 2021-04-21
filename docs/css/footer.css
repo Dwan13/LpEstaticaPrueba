@@ -54,15 +54,19 @@ section.landing-buckup footer .content ul li a:hover {
 @media (max-width: 1200px){
     section.landing-buckup footer .content {    
         padding: 20px;
+        flex-wrap: wrap;
     }
     section.landing-buckup footer .content .img_footer_brands {
-        width: 100%;        
+        width: 100%;
+        margin-bottom: 18px;        
     }
     section.landing-buckup footer .content .img_footer_brands img {
         object-fit: contain;
         width: auto;
     }
     section.landing-buckup footer .content .links {
-        display: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 18px;
     }
 }
