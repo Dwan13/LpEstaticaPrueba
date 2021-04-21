@@ -66,7 +66,7 @@ window.onload = function () {
   jQuery('section.landing-buckup .banner picture img').attr("src","./assets/" +banner+".jpg");
   jQuery('section.landing-buckup .banner picture source').attr("srcset","./assets/" +banner_mobile+".jpg");
 
-  jQuery('section.landing-buckup header .phone .first').text(phone_text);
+  jQuery('section.landing-buckup header .phone .color').text(phone_text);
   var enlace = phone_number[0];
     mostrar(enlace); 
     jQuery('section.landing-buckup header .phone .selector p').text(phone_id[0]);
